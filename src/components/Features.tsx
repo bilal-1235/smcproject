@@ -94,6 +94,8 @@ export default function App() {
         <SwiperSlide><img src={img5} alt="Slide 1" /></SwiperSlide>
         <SwiperSlide><img src={img6} alt="Slide 1" /></SwiperSlide>
       </Swiper>
+      <button className="btn btn-primary mt-4" style={{ marginLeft: '50px' }}> Join our Member
+        </button>
       </section>
     </>
   );
