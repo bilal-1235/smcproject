@@ -2,23 +2,9 @@
 import Accordion from 'react-bootstrap/Accordion';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-
-import '../styles.css';
-
-// import required modules
-import { Autoplay, Pagination } from 'swiper/modules';
 
 
-import img2 from '../assets/images/carouselimage/img2.png';
-import img3 from '../assets/images/carouselimage/img3.png';
-import img4 from '../assets/images/carouselimage/img4.png';
-import img5 from '../assets/images/carouselimage/img5.png';
-import img6 from '../assets/images/carouselimage/img6.png';
+
 
 export default function App() {
   return (
@@ -71,32 +57,7 @@ export default function App() {
    ))}
  </div>
  </section>
-    <section>
-      <Swiper
-      modules={[Autoplay]}
-        slidesPerView={3}
-        centeredSlides={true}
-        spaceBetween={200}
-        autoplay={{
-          delay: 1000,
-          disableOnInteraction: false,
-
-        }
-        }
-        speed={600}
-        loop  = {true}
-        className="mySwiper"
-      >
-        <SwiperSlide> <img src={"/img1.png"} alt="Slide 1" /></SwiperSlide>
-        <SwiperSlide><img src={"/img2.png"} alt="Slide 1" /></SwiperSlide>
-        <SwiperSlide><img src={"/img3.png"} alt="Slide 1" /></SwiperSlide>
-        <SwiperSlide><img src={"/img4.png"} alt="Slide 1" /></SwiperSlide>
-        <SwiperSlide><img src={"/img5.png"} alt="Slide 1" /></SwiperSlide>
-        <SwiperSlide><img src={"/img6.png"} alt="Slide 1" /></SwiperSlide>
-      </Swiper>
-      <div className='d-flex justify-content-center'><button className="btn btn-primary mt-4  "  > Join our Member
-      </button></div>
-      </section>
+    
     </>
   );
 }
