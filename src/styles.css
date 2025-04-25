@@ -39,3 +39,14 @@
     object-fit: cover;
   }
   
+ .quickslinks{
+    text-decoration: none;
+    color: #ffffff91;
+   
+  }
+  
+  .quickslinks:hover {
+    color: white;
+  }
+  
+  
