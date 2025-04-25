@@ -13,7 +13,7 @@ import '../styles.css';
 // import required modules
 import { Autoplay, Pagination } from 'swiper/modules';
 
-import img1 from '../assets/images/carouselimage/img1.png';
+
 import img2 from '../assets/images/carouselimage/img2.png';
 import img3 from '../assets/images/carouselimage/img3.png';
 import img4 from '../assets/images/carouselimage/img4.png';
@@ -87,12 +87,12 @@ export default function App() {
         loop  = {true}
         className="mySwiper"
       >
-        <SwiperSlide> <img src={img1} alt="Slide 1" /></SwiperSlide>
-        <SwiperSlide><img src={img2} alt="Slide 1" /></SwiperSlide>
-        <SwiperSlide><img src={img3} alt="Slide 1" /></SwiperSlide>
-        <SwiperSlide><img src={img4} alt="Slide 1" /></SwiperSlide>
-        <SwiperSlide><img src={img5} alt="Slide 1" /></SwiperSlide>
-        <SwiperSlide><img src={img6} alt="Slide 1" /></SwiperSlide>
+        <SwiperSlide> <img src={"/img1.png"} alt="Slide 1" /></SwiperSlide>
+        <SwiperSlide><img src={"/img2.png"} alt="Slide 1" /></SwiperSlide>
+        <SwiperSlide><img src={"/img3.png"} alt="Slide 1" /></SwiperSlide>
+        <SwiperSlide><img src={"/img4.png"} alt="Slide 1" /></SwiperSlide>
+        <SwiperSlide><img src={"/img5.png"} alt="Slide 1" /></SwiperSlide>
+        <SwiperSlide><img src={"/img6.png"} alt="Slide 1" /></SwiperSlide>
       </Swiper>
       <div className='d-flex justify-content-center'><button className="btn btn-primary mt-4  "  > Join our Member
       </button></div>
